@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.form-control{
+    border-radius: 0px !important;
+}
+.search{
+    width:200px;
+}
+select.customDropdown {
+    outline : none;
+    overflow : hidden;
+    text-indent : 0.01px;
+    text-overflow : '';
+    
+    background : url("https://img.icons8.com/material/24/000000/sort-down.png") no-repeat right #fff;
+
+    -webkit-appearance: none;
+       -moz-appearance: none;
+        -ms-appearance: none;
+         -o-appearance: none;
+            appearance: none;
+}
+.form-label{
+    font-weight: 600;
+    font-size: 18px;
+}
+.submit-btn{
+    border-radius: 0px;
+    width: 100%;
+    margin-top: 15px;
+    background-color: #000;
+    border: 0px !important;
+}
+.heading{
+    padding: 0px 0px 15px 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.heading p{
+    font-size: 25px !important;
+    font-weight: 700;
+
+}
+.fa{
+    border: 1px solid #000;
+    padding: 3px;
+    margin-right: 10px;
+    background-color: rgb(234, 234, 234);
+    color: #000; 
+}
+.fa-trash-o{
+    color: rgb(255, 0, 0);
+    border: 1px solid red;
+    background-color: #ffffff;
+    
+}

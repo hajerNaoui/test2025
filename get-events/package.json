@@ -1,0 +1,26 @@
+{
+    "name": "get_events",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "body-parser": "^1.20.3",
+        "cors": "^2.8.5",
+        "express": "^4.17.1"
+    },
+    "jest": {
+        "testEnvironment": "node",
+        "coveragePathIgnorePatterns": [
+          "/node_modules/"
+        ]
+      },    
+    "scripts": {
+        "start": "node server.js",
+        "test": "jest"
+    },
+    
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "supertest": "^7.0.0"
+    }
+}
